@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  padding: 100px;
+}
+header {
+  position: fixed;
+  color: #ffffff;
+  background-image: url("../images/background2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer,
+.main-nav {
+  background-color: #6c6666;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #e93801;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.banner {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.main-nav {
+  width: 100%;
+  padding: 0 100px;
+  display: flex;
+}
+.main-nav ul {
+  align-content: ;
+}
+
+.main-nav ul li {
+  float: left;
+  padding: 10px 150px;
+  margin: 0 10px 15px 10px;
+}
+
+.main-nav ul li a {
+  font-size: 1.2rem;
+}
