@@ -234,18 +234,6 @@ main {
     display: block;
   }
 
-  .hamburger:hover:before {
-    transform: translateY(12px) rotate(135deg);
-  }
-
-  .hamburger:hover:after {
-    transform: translateY(-12px) rotate(-135deg);
-  }
-
-  .hamburger:hover div {
-    transform: scale(0);
-  }
-
   /* media queries home page*/
 
   main {
