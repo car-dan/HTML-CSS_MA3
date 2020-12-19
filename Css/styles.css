@@ -93,8 +93,8 @@ a:hover {
   border-radius: 40px;
   padding: 12px;
   background: #e93801;
-
 }
+
 .search-box:hover > .search-txt {
   width: 100px;
   padding: 0 6px;
@@ -172,20 +172,17 @@ a:hover {
     cursor: pointer;
     right: 10px;
     margin-top: 0px;
-
   }
 
   .test {
     display: block;
   }
 
-
   .logo-img {
     height: 10vh;
     display: flex;
     justify-content: center;
     align-content: center;
-    /* padding-left: 50%; */
   }
 
   .hide {
@@ -196,23 +193,21 @@ a:hover {
     display: none;
   }
 
-  .hamburger-nav{
+  .hamburger-nav {
     display: block;
     background: #6c6666;
     position: fixed;
     cursor: pointer;
-    left: 10px;
-    top: 40px;
-
-
   }
 
   .hamburger {
     cursor: pointer;
+    padding-left: 10px;
+    padding-top: 40px;
   }
 
   #hamburger-hamburger {
-    /* display: none; */
+    display: none;
     position: fixed;
     cursor: pointer;
     padding-left: 10px;
@@ -220,6 +215,11 @@ a:hover {
   }
   .main-nav {
     display: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
   }
 
   .main-nav ul {
@@ -230,13 +230,14 @@ a:hover {
     height: 100%;
     width: 100%;
   }
-  #hamburger-hamburger:checked ~ .hamburger-nav {
+
+  #hamburger-hamburger:checked ~ nav {
     display: block;
   }
 
+  /* media queries home page*/
 
-/* media queries home page*/
-
-main {
-  padding-top: 10vh;
+  main {
+    padding-top: 10vh;
+  }
 }
