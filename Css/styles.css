@@ -4,12 +4,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-main {
-  padding: 0 100px;
-}
 header {
-  /* position: sticky; */
+  position: fixed;
+  width: 100%;
   color: #ffffff;
+  max-height: 65vh;
 }
 
 footer,
@@ -17,7 +16,6 @@ footer,
   background-color: #6c6666;
   color: #ffffff;
   width: 100%;
-  /* min-height: 40px; */
 }
 
 a {
@@ -56,9 +54,7 @@ nav li {
   justify-items: flex-end;
   margin-right: 10px;
 }
-.test {
-  display: none;
-}
+
 .main-nav ul {
   margin: 0 10px;
   display: flex;
@@ -122,7 +118,15 @@ a:hover {
   width: 0px;
 }
 
+#hamburger-hamburger,
+.hamburger {
+  display: none;
+}
+
 /* Home page */
+main {
+  padding-top: 35vh;
+}
 
 .news {
   display: grid;
@@ -174,10 +178,6 @@ a:hover {
     margin-top: 0px;
   }
 
-  .test {
-    display: block;
-  }
-
   .logo-img {
     height: 10vh;
     display: flex;
@@ -201,6 +201,7 @@ a:hover {
   }
 
   .hamburger {
+    display: block;
     cursor: pointer;
     padding-left: 10px;
     padding-top: 40px;
@@ -210,8 +211,6 @@ a:hover {
     display: none;
     position: fixed;
     cursor: pointer;
-    padding-left: 10px;
-    padding-top: 30px;
   }
   .main-nav {
     display: none;
@@ -233,6 +232,18 @@ a:hover {
 
   #hamburger-hamburger:checked ~ nav {
     display: block;
+  }
+
+  .hamburger:hover:before {
+    transform: translateY(12px) rotate(135deg);
+  }
+
+  .hamburger:hover:after {
+    transform: translateY(-12px) rotate(-135deg);
+  }
+
+  .hamburger:hover div {
+    transform: scale(0);
   }
 
   /* media queries home page*/
