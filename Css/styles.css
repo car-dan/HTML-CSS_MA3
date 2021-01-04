@@ -165,7 +165,7 @@ main {
 }
 
 img:hover {
-  -ms-transform: scale(0.2);
+  -ms-transform: scale(0.1);
   transform: scale(1.1);
 }
 
@@ -179,7 +179,7 @@ img:hover {
     align-content: center;
     background-image: none;
     background: #6c6666;
-    width: 100vw;
+    width: 100%;
   }
 
   .top-nav {
@@ -207,7 +207,7 @@ img:hover {
 
   .hamburger-nav {
     display: block;
-    background: #6c6666;
+
     position: fixed;
     cursor: pointer;
   }
@@ -230,6 +230,7 @@ img:hover {
     margin: 0;
     height: 100vh;
     width: 100vw;
+    /* background: #6c6666; */
   }
 
   .main-nav ul {
