@@ -207,6 +207,35 @@ h2 {
   color: #e93801;
 }
 
+/* Create_account page */
+
+.form__input,
+.message {
+  display: block;
+  width: 90%;
+  min-width: 200px;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  border: 2px solid #e93801;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  background-color: #e93801;
+  border: none;
+  color: #ffffff;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.message {
+  min-height: 25vh;
+}
+
 /* media queries */
 
 @media only screen and (max-width: 1399px) {
@@ -328,6 +357,11 @@ h2 {
   }
   .search h1 {
     font-size: 4rem;
+  }
+
+  .form__input,
+  .message {
+    width: 50%;
   }
 }
 
