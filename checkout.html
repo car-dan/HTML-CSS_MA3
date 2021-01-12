@@ -79,98 +79,160 @@
       </section>
     </header>
     <main>
-      <section class="payment">
-        <h1>Payment</h1>
-        <p>choose payment method below</p>
-        <div>
-          <a href="#"><img src="/images/visa_grå.png" alt="Visa" /></a>
-          <a href="#"><img src="/images/paypal.png" alt="Paypal" /></a>
-          <a href="#"><img src="/images/amazone.png" alt="amazone" /></a>
-        </div>
+      <section class="content">
+        <div class="cart">
+          <h1>Your Cart</h1>
+          <div class="cart-wrapper">
+            <div class="cart-img">
+              <img
+                src="/images/valhalla_smal.png"
+                alt="Assassin Creed Valhalla"
+              />
+            </div>
+            <div class="cart_text">
+              <div><p>Assassin`s Creed Valhalla</p></div>
+              <div class="cart_price">
+                <input type="number" class="item" min="0" value="1" />
+                <p>$12.5</p>
+              </div>
+            </div>
+          </div>
+          <div class="cart-wrapper">
+            <div class="cart-img">
+              <img src="/images/crash_small.png" alt="Crash Bandicoot" />
+            </div>
+            <div class="cart_text">
+              <div><p>Crash Bandicoot</p></div>
+              <div class="cart_price">
+                <input type="number" class="item" min="0" value="1" />
+                <p>$12.5</p>
+              </div>
+            </div>
+          </div>
+          <div class="cart-wrapper">
+            <div class="cart-img">
+              <img src="/images/farcry_small.png" alt="Farcry 6" />
+            </div>
+            <div class="cart_text">
+              <div><p>Farcry 6</p></div>
+              <div class="cart_price">
+                <input type="number" class="item" min="0" value="1" />
+                <p>$12.5</p>
+              </div>
+            </div>
+          </div>
 
-        <form action="#" method="GET">
-          <div class="billing">
-            <h3>Billing Info</h3>
-            <label for="name">Full name</label>
-            <input type="text" name="name" id="name" class="form__input" />
-            <label for="adress">Adress</label>
-            <input type="text" name="adress" id="adress" class="form__input" />
-            <label for="city">City</label>
-            <input type="text" name="city" id="city" class="form__input" />
-            <label for="zip">Zip code</label>
-            <input type="number" name="zip" id="zip" class="form__input" />
-            <label for="country">Country</label>
-            <select name="country" id="country" class="form__input">
-              <option value="Usa">Unitid States</option>
-              <option value="norway">Norway</option>
-              <option value="sweden ">sweden</option>
-            </select>
+          <hr />
+          <div class="shipping">
+            <p>Shipping</p>
+            <p>$0</p>
           </div>
-          <div class="items">
-            <h3>Credit Card Info</h3>
-            <label for="card">Card number</label>
-            <input type="text" name="card" id="card" class="form__input" />
-            <label for="card_name">Cardholder name</label>
-            <input
-              type="text"
-              name="card_name"
-              id="card_name"
-              class="form__input"
-            />
-            <label for="date">Date</label>
-            <select name="date" id="date" class="form__input">
-              <option value="date1">1</option>
-              <option value="date2">2</option>
-              <option value="date3">3</option>
-              <option value="date4">4</option>
-              <option value="date5">5</option>
-              <option value="date6">6</option>
-              <option value="date7">7</option>
-              <option value="date8">8</option>
-              <option value="date9">9</option>
-              <option value="date10">10</option>
-              <option value="date11">11</option>
-              <option value="date12">12</option>
-              <option value="date13">13</option>
-              <option value="date14">14</option>
-              <option value="date15">15</option>
-              <option value="date16">16</option>
-              <option value="date17">17</option>
-              <option value="date18">18</option>
-              <option value="date19">19</option>
-              <option value="date20">20</option>
-              <option value="date21">21</option>
-              <option value="date22">22</option>
-              <option value="date23">23</option>
-              <option value="date24">24</option>
-              <option value="date25">25</option>
-              <option value="date26">26</option>
-              <option value="date27">27</option>
-              <option value="date28">28</option>
-              <option value="date29">29</option>
-              <option value="date30">30</option>
-              <option value="date31">31</option>
-            </select>
-            <label for="month">Month</label>
-            <select name="month" id="month" class="form__input">
-              <option value="january">January</option>
-              <option value="february">February</option>
-              <option value="march">March</option>
-              <option value="april">April</option>
-              <option value="may">May</option>
-              <option value="june">June</option>
-              <option value="july">July</option>
-              <option value="august">August</option>
-              <option value="september">September</option>
-              <option value="october">October</option>
-              <option value="november">November</option>
-              <option value="december">December</option>
-            </select>
-            <label for="cvc">cvc</label>
-            <input type="text" name="cvc" id="cvc" class="form__input" />
+          <div class="total">
+            <p>Total</p>
+            <p>$37.5</p>
           </div>
-          <input type="submit" value="Pay" />
-        </form>
+        </div>
+        <hr />
+        <div class="payment">
+          <div>
+            <h2>Payment</h2>
+            <p>choose payment method below</p>
+          </div>
+          <div>
+            <a href="#"><img src="/images/visa_grå.png" alt="Visa" /></a>
+            <a href="#"><img src="/images/paypal.png" alt="Paypal" /></a>
+            <a href="#"><img src="/images/amazone.png" alt="amazone" /></a>
+          </div>
+
+          <form action="#" method="GET">
+            <div class="billing">
+              <h3>Billing Info</h3>
+              <label for="name">Full name</label>
+              <input type="text" name="name" id="name" class="form__input" />
+              <label for="adress">Adress</label>
+              <input
+                type="text"
+                name="adress"
+                id="adress"
+                class="form__input"
+              />
+              <label for="city">City</label>
+              <input type="text" name="city" id="city" class="form__input" />
+              <label for="zip">Zip code</label>
+              <input type="number" name="zip" id="zip" class="form__input" />
+              <label for="country">Country</label>
+              <select name="country" id="country" class="form__input">
+                <option value="Usa">Unitid States</option>
+                <option value="norway">Norway</option>
+                <option value="sweden ">sweden</option>
+              </select>
+            </div>
+            <div class="items">
+              <h3>Credit Card Info</h3>
+              <label for="card">Card number</label>
+              <input type="text" name="card" id="card" class="form__input" />
+              <label for="card_name">Cardholder name</label>
+              <input
+                type="text"
+                name="card_name"
+                id="card_name"
+                class="form__input"
+              />
+              <label for="date">Date</label>
+              <select name="date" id="date" class="form__input">
+                <option value="date1">1</option>
+                <option value="date2">2</option>
+                <option value="date3">3</option>
+                <option value="date4">4</option>
+                <option value="date5">5</option>
+                <option value="date6">6</option>
+                <option value="date7">7</option>
+                <option value="date8">8</option>
+                <option value="date9">9</option>
+                <option value="date10">10</option>
+                <option value="date11">11</option>
+                <option value="date12">12</option>
+                <option value="date13">13</option>
+                <option value="date14">14</option>
+                <option value="date15">15</option>
+                <option value="date16">16</option>
+                <option value="date17">17</option>
+                <option value="date18">18</option>
+                <option value="date19">19</option>
+                <option value="date20">20</option>
+                <option value="date21">21</option>
+                <option value="date22">22</option>
+                <option value="date23">23</option>
+                <option value="date24">24</option>
+                <option value="date25">25</option>
+                <option value="date26">26</option>
+                <option value="date27">27</option>
+                <option value="date28">28</option>
+                <option value="date29">29</option>
+                <option value="date30">30</option>
+                <option value="date31">31</option>
+              </select>
+              <label for="month">Month</label>
+              <select name="month" id="month" class="form__input">
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="september">September</option>
+                <option value="october">October</option>
+                <option value="november">November</option>
+                <option value="december">December</option>
+              </select>
+              <label for="cvc">cvc</label>
+              <input type="text" name="cvc" id="cvc" class="form__input" />
+            </div>
+            <input type="submit" value="Pay" />
+          </form>
+        </div>
       </section>
     </main>
 

@@ -236,6 +236,42 @@ input[type="submit"] {
   min-height: 25vh;
 }
 
+/* checkout page */
+.content h1,
+h2 {
+  font-size: 2rem;
+  color: #000;
+  text-shadow: none;
+  margin: 10vh auto 2.5vh auto;
+}
+
+.cart-wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.cart-wrapper input {
+  max-width: 30px;
+  max-height: 20px;
+  margin-top: 10px;
+}
+
+.cart_price {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-right: 90px;
+}
+.cart_price p {
+  margin-left: 5px;
+  padding-right: 90px;
+}
+
+.shipping,
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* media queries */
 
 @media only screen and (max-width: 1399px) {
