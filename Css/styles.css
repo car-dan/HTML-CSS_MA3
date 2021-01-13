@@ -279,20 +279,9 @@ h2 {
   margin-bottom: 0px;
 }
 
-.pay-img {
-  display: flex;
-  justify-content: center;
-}
-
-.pay-img img {
-  max-width: 100px;
-  padding: 0px;
-  margin: 0px;
-}
-
 .billing_wrapper {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 3fr;
   grid-template-areas:
     "name name"
     "address address"
@@ -322,7 +311,7 @@ h2 {
 }
 
 .zip input {
-  width: 40%;
+  /* width: 40%; */
 }
 
 .credit_info_wrapper {
@@ -355,12 +344,9 @@ h2 {
   grid-area: cvc;
 }
 
-/* .country input {
-  width: 80%;
-} */
 /* media queries */
 
-@media only screen and (max-width: 1399px) {
+@media only screen and (max-width: 1387px) {
   .banner {
     position: fixed;
     display: flex;
@@ -472,10 +458,35 @@ h2 {
   }
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 668px) {
+  /* checkout page */
   .content {
+    min-width: 600px;
+    margin: 0;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
+  }
+
+  .cart {
+    /* min-width: 300px; */
+    margin-left: 50px;
+  }
+
+  .pay-img {
+    display: flex;
+    justify-content: right;
+    max-width: 50px;
+  }
+
+  .pay-img a {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .payment {
+    /* min-width: 300px; */
+    /* margin-left: 50px; */
   }
 }
 
@@ -500,5 +511,9 @@ h2 {
   }
   .search {
     padding-top: 0vh;
+  }
+
+  .content {
+    /* padding-top: 10vh; */
   }
 }
