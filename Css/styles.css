@@ -213,7 +213,7 @@ h2 {
 .message {
   display: block;
   width: 90%;
-  min-width: 200px;
+
   padding: 12px 20px;
   margin-bottom: 10px;
   border: 2px solid #e93801;
@@ -259,7 +259,6 @@ h2 {
 .cart_price {
   display: grid;
   grid-template-columns: auto auto;
-  margin-right: 90px;
 }
 .cart_price p {
   margin-left: 5px;
@@ -272,6 +271,63 @@ h2 {
   justify-content: space-between;
 }
 
+.payment p {
+  margin-top: 0;
+}
+
+.payment h2 {
+  margin-bottom: 0px;
+}
+
+.pay-img {
+  display: flex;
+  justify-content: center;
+}
+
+.pay-img img {
+  max-width: 100px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.billing_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "name name"
+    "address address"
+    "city city"
+    "zip country";
+}
+
+.billing label {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.name {
+  grid-area: name;
+}
+.address {
+  grid-area: address;
+}
+.city {
+  grid-area: city;
+}
+.zip {
+  grid-area: zip;
+}
+.country {
+  grid-area: country;
+}
+
+.zip input {
+  width: 40%;
+}
+
+/* .country input {
+  width: 80%;
+} */
 /* media queries */
 
 @media only screen and (max-width: 1399px) {
