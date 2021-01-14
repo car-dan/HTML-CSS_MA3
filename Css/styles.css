@@ -310,10 +310,6 @@ h2 {
   grid-area: country;
 }
 
-.zip input {
-  /* width: 40%; */
-}
-
 .credit_info_wrapper {
   display: grid;
   grid-template-columns: 2fr 3fr;
@@ -346,6 +342,21 @@ h2 {
 
 .checkout_submit {
   float: right;
+}
+
+/* checkout_succsess page */
+
+.checkout_succsess {
+  max-width: 400px;
+  margin: 20vh auto;
+}
+
+.checkout_succsess img,
+h1,
+p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* media queries */
 
@@ -467,32 +478,15 @@ h2 {
     min-width: 600px;
     margin: 0;
     display: flex;
-    /* flex-direction: row-reverse; */
     justify-content: space-between;
   }
 
   .cart {
-    /* min-width: 300px; */
     margin-right: 50px;
   }
+
   .checkout_submit {
     margin-right: 50px;
-  }
-
-  /* .pay-img {
-    display: flex;
-    justify-content: right;
-    max-width: 50px;
-  }
-
-  .pay-img a {
-    padding: 0px;
-    margin: 0px;
-  } */
-
-  .payment {
-    /* min-width: 300px; */
-    /* margin-left: 50px; */
   }
 }
 
@@ -520,7 +514,7 @@ h2 {
     justify-content: space-between;
   }
 
-  . .payment input[type="submit"] {
+  .payment input[type="submit"] {
     padding: 20px 60px;
   }
   .checkout_submit {
@@ -544,9 +538,5 @@ h2 {
   }
   .search {
     padding-top: 0vh;
-  }
-
-  .content {
-    /* padding-top: 10vh; */
   }
 }
