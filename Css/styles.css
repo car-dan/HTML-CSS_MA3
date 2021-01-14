@@ -344,6 +344,9 @@ h2 {
   grid-area: cvc;
 }
 
+.checkout_submit {
+  float: right;
+}
 /* media queries */
 
 @media only screen and (max-width: 1387px) {
@@ -464,16 +467,19 @@ h2 {
     min-width: 600px;
     margin: 0;
     display: flex;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
     justify-content: space-between;
   }
 
   .cart {
     /* min-width: 300px; */
-    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .checkout_submit {
+    margin-right: 50px;
   }
 
-  .pay-img {
+  /* .pay-img {
     display: flex;
     justify-content: right;
     max-width: 50px;
@@ -482,7 +488,7 @@ h2 {
   .pay-img a {
     padding: 0px;
     margin: 0px;
-  }
+  } */
 
   .payment {
     /* min-width: 300px; */
@@ -491,10 +497,12 @@ h2 {
 }
 
 @media only screen and (min-width: 1200px) {
+  /* index page */
   .news,
   .trending {
     grid-template-columns: repeat(3, 1fr);
   }
+  /* search page */
   .search h1 {
     font-size: 4rem;
   }
@@ -502,6 +510,31 @@ h2 {
   .form__input,
   .message {
     width: 50%;
+  }
+
+  /* checkout page */
+
+  .payment_form {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+  }
+
+  . .payment input[type="submit"] {
+    padding: 20px 60px;
+  }
+  .checkout_submit {
+    margin-right: 50px;
+  }
+  .payment {
+    min-width: 600px;
+  }
+
+  .credit_info_wrapper {
+    min-width: 300px;
+  }
+  .billing_wrapper {
+    min-width: 300px;
   }
 }
 
