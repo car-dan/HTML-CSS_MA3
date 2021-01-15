@@ -148,7 +148,7 @@ main {
 /* Home page */
 .news {
   padding-top: 0vh;
-  margin-top: 0vh;
+  margin-top: 10vh;
 }
 .news,
 .trending {
@@ -183,7 +183,7 @@ img:hover {
 }
 
 .search h1,
-h2 {
+.search h2 {
   color: #000;
   font-size: 1rem;
 }
@@ -238,7 +238,7 @@ input[type="submit"] {
 
 /* checkout page */
 .content h1,
-h2 {
+.content h2 {
   font-size: 2rem;
   color: #000;
   text-shadow: none;
@@ -352,8 +352,8 @@ h2 {
 }
 
 .checkout_succsess img,
-h1,
-p {
+.checkout_succsess h1,
+.checkout_succsess p {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -432,6 +432,8 @@ p {
 
   #hamburger-hamburger:checked ~ nav {
     display: block;
+    width: 100vw;
+    height: 100vh;
   }
 }
 
