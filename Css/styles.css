@@ -412,6 +412,35 @@ input[type="submit"] {
     cursor: pointer;
   }
 
+  .search-box {
+    top: 20px;
+    height: 30px;
+    padding: 0 6px;
+
+    border-radius: 40px;
+    padding: 12px;
+    background: #6c6666;
+  }
+  .search-box:hover > .search-txt {
+    width: 100px;
+    padding: 0 6px;
+    display: inline;
+  }
+
+  .search-txt {
+    border: none;
+    background: #ffffff;
+    outline: none;
+    color: #6c6666;
+    border-radius: 20px;
+    display: none;
+  }
+
+  .search-btn {
+    color: #ffffff;
+    background: #6c6666;
+  }
+
   .main-nav {
     display: none;
     border: 0;
