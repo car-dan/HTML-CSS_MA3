@@ -102,6 +102,12 @@ a:hover {
   transition: 0.4s;
 }
 
+.submit:hover {
+  color:#161616;
+  font-weight: bold;
+  transition: 0.4s
+}
+
 .cta {
   background-color: #e93801;
   color: #ffffff;
