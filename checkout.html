@@ -1,298 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="GameHub| Get the newes video games here "
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
-      crossorigin="anonymous"
-    />
-    <title>GameHub</title>
-    <link rel="stylesheet" href="Css/styles.css" />
-  </head>
-  <body>
-    <header>
-      <section class="banner">
-        <div class="banner-image">
-          <a href="index.html" class="logo"
-            ><img src="images/logo.png" alt="GameHub logo" class="logo-img"
-          /></a>
-          <nav class="top-nav">
-            <ul>
-              <li class="hide-hamburger"><a href="#">Sell your games</a></li>
-              <li class="hide-hamburger"><a href="create_account.html">Create Acount</a></li>
-              <li class="hide-hamburger">
-                <a href="#"><i class="fas fa-user-alt"></i>Sign in</a>
-              </li>
-              <li>
-                <a href="checkout.html"><i class="fas fa-shopping-cart"> </i></a>
-              </li>
-              <li class="hide-hamburger search-box">
-                <input
-                  class="search-txt"
-                  type="text"
-                  name=""
-                  placeholder="Type to search"
-                />
-                <a class="search-btn" href="search.html"
-                  ><i class="fas fa-search"></i
-                ></a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </section>
-      <section class="hamburger-nav">
-        <div class="hamb-nav">
-          <label for="hamburger-hamburger">
-            <i class="fas fa-bars hamburger"></i>
-          </label>
-          <input type="checkbox" id="hamburger-hamburger" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="GameHub| Get the newes video games here "
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+			integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+			crossorigin="anonymous"
+		/>
+		<title>GameHub</title>
+		<link rel="stylesheet" href="Css/styles.css" />
+		<!-- Hotjar Tracking Code for https://vigorous-cray-19512a.netlify.app -->
+		<script>
+			(function (h, o, t, j, a, r) {
+				h.hj =
+					h.hj ||
+					function () {
+						(h.hj.q = h.hj.q || []).push(arguments);
+					};
+				h._hjSettings = { hjid: 2391283, hjsv: 6 };
+				a = o.getElementsByTagName("head")[0];
+				r = o.createElement("script");
+				r.async = 1;
+				r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+				a.appendChild(r);
+			})(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+		</script>
+	</head>
+	<body>
+		<header>
+			<section class="banner">
+				<div class="banner-image">
+					<a href="index.html" class="logo"
+						><img src="images/logo.png" alt="GameHub logo" class="logo-img"
+					/></a>
+					<nav class="top-nav">
+						<ul>
+							<li class="hide-hamburger"><a href="#">Sell your games</a></li>
+							<li class="hide-hamburger">
+								<a href="create_account.html">Create Acount</a>
+							</li>
+							<li class="hide-hamburger">
+								<a href="#"><i class="fas fa-user-alt"></i>Sign in</a>
+							</li>
+							<li>
+								<a href="checkout.html"
+									><i class="fas fa-shopping-cart"> </i
+								></a>
+							</li>
+							<li class="hide-hamburger search-box">
+								<input
+									class="search-txt"
+									type="text"
+									name=""
+									placeholder="Type to search"
+								/>
+								<a class="search-btn" href="search.html"
+									><i class="fas fa-search"></i
+								></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+			<section class="hamburger-nav">
+				<div class="hamb-nav">
+					<label for="hamburger-hamburger">
+						<i class="fas fa-bars hamburger"></i>
+					</label>
+					<input type="checkbox" id="hamburger-hamburger" />
 
-          <nav class="main-nav">
-            <ul>
-              <li class="search-box hide">
-                <input
-                  class="search-txt"
-                  type="text"
-                  name=""
-                  placeholder="Type to search"
-                />
-                <a class="search-btn" href="search.html"
-                  ><i class="fas fa-search"></i></a></li>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="new_games.html">New Games</a></li>
-              <li><a href="#">Used Games</a></li>
-              <li class="hide"><a href="#">Sell your games</a></li>
-              <li class="hide">
-                <a href="create_account.html">Create Acount</a>
-              </li>
-              <li class="hide">
-                <a href="#"><i class="fas fa-user-alt"></i>Sign in</a>
-              </li>
-              <li><a href="contact.html" >Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-      </section>
-    </header>
-    <main>
-      <section class="breadcrumbs">
-        <a href="index.html">Home </a>
-          <a href="checkout.html">> Checkout</a>
-          
-        </section>
-      <section class="content">
-        <div class="cart">
-          <h1>Your Cart</h1>
-          <div class="cart-wrapper">
-            <div class="cart-img">
-              <img
-                src="/images/valhalla_smal.png"
-                alt="Assassin Creed Valhalla"
-              />
-            </div>
-            <div class="cart_text">
-              <div><p>Assassin`s Creed Valhalla</p></div>
-              <div class="cart_price">
-                <input type="number" class="item" min="0" value="1" />
-                <p>$12.5</p>
-              </div>
-            </div>
-          </div>
-          <div class="cart-wrapper">
-            <div class="cart-img">
-              <img src="/images/crash_small.png" alt="Crash Bandicoot" />
-            </div>
-            <div class="cart_text">
-              <div><p>Crash Bandicoot</p></div>
-              <div class="cart_price">
-                <input type="number" class="item" min="0" value="1" />
-                <p>$12.5</p>
-              </div>
-            </div>
-          </div>
-          <div class="cart-wrapper">
-            <div class="cart-img">
-              <img src="/images/farcry_small.png" alt="Farcry 6" />
-            </div>
-            <div class="cart_text">
-              <div><p>Farcry 6</p></div>
-              <div class="cart_price">
-                <input type="number" class="item" min="0" value="1" />
-                <p>$12.5</p>
-              </div>
-            </div>
-          </div>
-          <hr />
-          <div class="shipping">
-            <p>Shipping</p>
-            <p>$0</p>
-          </div>
-          <div class="total">
-            <p>Total</p>
-            <p>$37.5</p>
-          </div>
-          <hr />
-        </div>
+					<nav class="main-nav">
+						<ul>
+							<li class="search-box hide">
+								<input
+									class="search-txt"
+									type="text"
+									name=""
+									placeholder="Type to search"
+								/>
+								<a class="search-btn" href="search.html"
+									><i class="fas fa-search"></i
+								></a>
+							</li>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="new_games.html">New Games</a></li>
+							<li><a href="#">Used Games</a></li>
+							<li class="hide"><a href="#">Sell your games</a></li>
+							<li class="hide">
+								<a href="create_account.html">Create Acount</a>
+							</li>
+							<li class="hide">
+								<a href="#"><i class="fas fa-user-alt"></i>Sign in</a>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+		</header>
+		<main>
+			<section class="breadcrumbs">
+				<a href="index.html">Home </a>
+				<a href="checkout.html">> Checkout</a>
+			</section>
+			<section class="content">
+				<div class="cart">
+					<h1>Your Cart</h1>
+					<div class="cart-wrapper">
+						<div class="cart-img">
+							<img
+								src="/images/valhalla_smal.png"
+								alt="Assassin Creed Valhalla"
+							/>
+						</div>
+						<div class="cart_text">
+							<div><p>Assassin`s Creed Valhalla</p></div>
+							<div class="cart_price">
+								<input type="number" class="item" min="0" value="1" />
+								<p>$12.5</p>
+							</div>
+						</div>
+					</div>
+					<div class="cart-wrapper">
+						<div class="cart-img">
+							<img src="/images/crash_small.png" alt="Crash Bandicoot" />
+						</div>
+						<div class="cart_text">
+							<div><p>Crash Bandicoot</p></div>
+							<div class="cart_price">
+								<input type="number" class="item" min="0" value="1" />
+								<p>$12.5</p>
+							</div>
+						</div>
+					</div>
+					<div class="cart-wrapper">
+						<div class="cart-img">
+							<img src="/images/farcry_small.png" alt="Farcry 6" />
+						</div>
+						<div class="cart_text">
+							<div><p>Farcry 6</p></div>
+							<div class="cart_price">
+								<input type="number" class="item" min="0" value="1" />
+								<p>$12.5</p>
+							</div>
+						</div>
+					</div>
+					<hr />
+					<div class="shipping">
+						<p>Shipping</p>
+						<p>$0</p>
+					</div>
+					<div class="total">
+						<p>Total</p>
+						<p>$37.5</p>
+					</div>
+					<hr />
+				</div>
 
-        <div class="payment">
-            <h2>Payment</h2>
-          <form action="checkout_succsess.html" method="GET" class="checkout_form" >
-            <div class="payment_form">
-            <div class="billing">
-              <h3>Billing Info</h3>
-              <div class="billing_wrapper">
-                <div class="name">
-                  <label for="name">Full name</label>
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    class="form__input"
-                  />
-                </div>
-                <div class="address">
-                  <label for="address">Address</label>
-                  <input
-                    type="text"
-                    name="address"
-                    id="address"
-                    class="form__input"
-                  />
-                </div>
-                <div class="city">
-                  <label for="city">City</label>
-                  <input
-                    type="text"
-                    name="city"
-                    id="city"
-                    class="form__input"
-                  />
-                </div>
-                <div class="zip">
-                  <label for="zip">Zip code</label>
-                  <input
-                    type="text"
-                    name="zip"
-                    id="zip"
-                    class="form__input"
-                  />
-                </div>
-                <div class="country">
-                  <label for="country">Country</label>
-                  <select name="country" id="country" class="form__input">
-                    <option value="Denmark">Denmark</option>
-                    <option value="norway">Norway</option>
-                    <option value="sweden ">Sweden</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-            <div class="credit_info">
-              <h3>Credit Card Info</h3>
-              <div class="credit_info_wrapper">
-                <div class="card">
-                  <label for="card">Card number</label>
-                  <input
-                    type="text"
-                    name="card"
-                    id="card"
-                    class="form__input"
-                  />
-                </div>
-                <div class="card_name">
-                  <label for="card_name">Cardholder name</label>
-                  <input
-                    type="text"
-                    name="card_name"
-                    id="card_name"
-                    class="form__input"
-                  />
-                </div>
-                <div class="date">
-                  <label for="date">Date</label>
-                  <select name="date" id="date" class="form__input">
-                    <option value="date1">1</option>
-                    <option value="date2">2</option>
-                    <option value="date3">3</option>
-                    <option value="date4">4</option>
-                    <option value="date5">5</option>
-                    <option value="date6">6</option>
-                    <option value="date7">7</option>
-                    <option value="date8">8</option>
-                    <option value="date9">9</option>
-                    <option value="date10">10</option>
-                    <option value="date11">11</option>
-                    <option value="date12">12</option>
-                    <option value="date13">13</option>
-                    <option value="date14">14</option>
-                    <option value="date15">15</option>
-                    <option value="date16">16</option>
-                    <option value="date17">17</option>
-                    <option value="date18">18</option>
-                    <option value="date19">19</option>
-                    <option value="date20">20</option>
-                    <option value="date21">21</option>
-                    <option value="date22">22</option>
-                    <option value="date23">23</option>
-                    <option value="date24">24</option>
-                    <option value="date25">25</option>
-                    <option value="date26">26</option>
-                    <option value="date27">27</option>
-                    <option value="date28">28</option>
-                    <option value="date29">29</option>
-                    <option value="date30">30</option>
-                    <option value="date31">31</option>
-                  </select>
-                </div>
-                <div class="month">
-                  <label for="month">Month</label>
-                  <select name="month" id="month" class="form__input">
-                    <option value="january">January</option>
-                    <option value="february">February</option>
-                    <option value="march">March</option>
-                    <option value="april">April</option>
-                    <option value="may">May</option>
-                    <option value="june">June</option>
-                    <option value="july">July</option>
-                    <option value="august">August</option>
-                    <option value="september">September</option>
-                    <option value="october">October</option>
-                    <option value="november">November</option>
-                    <option value="december">December</option>
-                  </select>
-                </div>
-                <div class="cvc">
-                  <label for="cvc">cvc</label>
-                  <input type="text" name="cvc" id="cvc" class="form__input" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="checkout_submit">
-           <input type="submit" value="Pay"  class="submit"> </div>
-          </form>
-        </div>
-      </section>
-    </main>
+				<div class="payment">
+					<h2>Payment</h2>
+					<form
+						action="checkout_succsess.html"
+						method="GET"
+						class="checkout_form"
+					>
+						<div class="payment_form">
+							<div class="billing">
+								<h3>Billing Info</h3>
+								<div class="billing_wrapper">
+									<div class="name">
+										<label for="name">Full name</label>
+										<input
+											type="text"
+											name="name"
+											id="name"
+											class="form__input"
+										/>
+									</div>
+									<div class="address">
+										<label for="address">Address</label>
+										<input
+											type="text"
+											name="address"
+											id="address"
+											class="form__input"
+										/>
+									</div>
+									<div class="city">
+										<label for="city">City</label>
+										<input
+											type="text"
+											name="city"
+											id="city"
+											class="form__input"
+										/>
+									</div>
+									<div class="zip">
+										<label for="zip">Zip code</label>
+										<input
+											type="text"
+											name="zip"
+											id="zip"
+											class="form__input"
+										/>
+									</div>
+									<div class="country">
+										<label for="country">Country</label>
+										<select name="country" id="country" class="form__input">
+											<option value="Denmark">Denmark</option>
+											<option value="norway">Norway</option>
+											<option value="sweden ">Sweden</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="credit_info">
+								<h3>Credit Card Info</h3>
+								<div class="credit_info_wrapper">
+									<div class="card">
+										<label for="card">Card number</label>
+										<input
+											type="text"
+											name="card"
+											id="card"
+											class="form__input"
+										/>
+									</div>
+									<div class="card_name">
+										<label for="card_name">Cardholder name</label>
+										<input
+											type="text"
+											name="card_name"
+											id="card_name"
+											class="form__input"
+										/>
+									</div>
+									<div class="date">
+										<label for="date">Date</label>
+										<select name="date" id="date" class="form__input">
+											<option value="date1">1</option>
+											<option value="date2">2</option>
+											<option value="date3">3</option>
+											<option value="date4">4</option>
+											<option value="date5">5</option>
+											<option value="date6">6</option>
+											<option value="date7">7</option>
+											<option value="date8">8</option>
+											<option value="date9">9</option>
+											<option value="date10">10</option>
+											<option value="date11">11</option>
+											<option value="date12">12</option>
+											<option value="date13">13</option>
+											<option value="date14">14</option>
+											<option value="date15">15</option>
+											<option value="date16">16</option>
+											<option value="date17">17</option>
+											<option value="date18">18</option>
+											<option value="date19">19</option>
+											<option value="date20">20</option>
+											<option value="date21">21</option>
+											<option value="date22">22</option>
+											<option value="date23">23</option>
+											<option value="date24">24</option>
+											<option value="date25">25</option>
+											<option value="date26">26</option>
+											<option value="date27">27</option>
+											<option value="date28">28</option>
+											<option value="date29">29</option>
+											<option value="date30">30</option>
+											<option value="date31">31</option>
+										</select>
+									</div>
+									<div class="month">
+										<label for="month">Month</label>
+										<select name="month" id="month" class="form__input">
+											<option value="january">January</option>
+											<option value="february">February</option>
+											<option value="march">March</option>
+											<option value="april">April</option>
+											<option value="may">May</option>
+											<option value="june">June</option>
+											<option value="july">July</option>
+											<option value="august">August</option>
+											<option value="september">September</option>
+											<option value="october">October</option>
+											<option value="november">November</option>
+											<option value="december">December</option>
+										</select>
+									</div>
+									<div class="cvc">
+										<label for="cvc">cvc</label>
+										<input
+											type="text"
+											name="cvc"
+											id="cvc"
+											class="form__input"
+										/>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="checkout_submit">
+							<input type="submit" value="Pay" class="submit" />
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
 
-    <footer>
-      <a href="checkout.html">
-        <img src="/images/arrowup.png" alt="top" />Top</a
-      >
-      <div>Copyright &copy;</div>
-    </footer>
-  </body>
+		<footer>
+			<a href="checkout.html">
+				<img src="/images/arrowup.png" alt="top" />Top</a
+			>
+			<div>Copyright &copy;</div>
+		</footer>
+	</body>
 </html>

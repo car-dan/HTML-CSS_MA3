@@ -1,123 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Anno 2205 is a futuristic city-building video game, take on the role of leader for a corporation and develop future technologies"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
-      crossorigin="anonymous"
-    />
-    <title>GameHub</title>
-    <link rel="stylesheet" href="Css/styles.css" />
-  </head>
-  <body>
-    <header>
-      <section class="banner">
-        <div class="banner-image">
-          <a href="index.html" class="logo"
-            ><img src="images/logo.png" alt="GameHub logo" class="logo-img"
-          /></a>
-          <nav class="top-nav">
-            <ul>
-              <li class="hide-hamburger"><a href="#">Sell your games</a></li>
-              <li class="hide-hamburger"><a href="#">Create Acount</a></li>
-              <li class="hide-hamburger">
-                <a href="#"><i class="fas fa-user-alt"></i>Sign in</a>
-              </li>
-              <li>
-                <a href="checkout.html"><i class="fas fa-shopping-cart"> </i></a>
-              </li>
-              <li class="hide-hamburger search-box">
-                <input
-                  class="search-txt"
-                  type="text"
-                  name=""
-                  placeholder="Type to search"
-                />
-                <a class="search-btn" href="search.html"
-                  ><i class="fas fa-search"></i
-                ></a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </section>
-      <section class="hamburger-nav">
-        <div class="hamb-nav">
-          <label for="hamburger-hamburger">
-            <i class="fas fa-bars hamburger"></i>
-          </label>
-          <input type="checkbox" id="hamburger-hamburger" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Anno 2205 is a futuristic city-building video game, take on the role of leader for a corporation and develop future technologies"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+			integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+			crossorigin="anonymous"
+		/>
+		<title>GameHub</title>
+		<link rel="stylesheet" href="Css/styles.css" />
+		<!-- Hotjar Tracking Code for https://vigorous-cray-19512a.netlify.app -->
+		<script>
+			(function (h, o, t, j, a, r) {
+				h.hj =
+					h.hj ||
+					function () {
+						(h.hj.q = h.hj.q || []).push(arguments);
+					};
+				h._hjSettings = { hjid: 2391283, hjsv: 6 };
+				a = o.getElementsByTagName("head")[0];
+				r = o.createElement("script");
+				r.async = 1;
+				r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+				a.appendChild(r);
+			})(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+		</script>
+	</head>
+	<body>
+		<header>
+			<section class="banner">
+				<div class="banner-image">
+					<a href="index.html" class="logo"
+						><img src="images/logo.png" alt="GameHub logo" class="logo-img"
+					/></a>
+					<nav class="top-nav">
+						<ul>
+							<li class="hide-hamburger"><a href="#">Sell your games</a></li>
+							<li class="hide-hamburger"><a href="#">Create Acount</a></li>
+							<li class="hide-hamburger">
+								<a href="#"><i class="fas fa-user-alt"></i>Sign in</a>
+							</li>
+							<li>
+								<a href="checkout.html"
+									><i class="fas fa-shopping-cart"> </i
+								></a>
+							</li>
+							<li class="hide-hamburger search-box">
+								<input
+									class="search-txt"
+									type="text"
+									name=""
+									placeholder="Type to search"
+								/>
+								<a class="search-btn" href="search.html"
+									><i class="fas fa-search"></i
+								></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+			<section class="hamburger-nav">
+				<div class="hamb-nav">
+					<label for="hamburger-hamburger">
+						<i class="fas fa-bars hamburger"></i>
+					</label>
+					<input type="checkbox" id="hamburger-hamburger" />
 
-          <nav class="main-nav">
-            <ul>
-              <li class="search-box hide">
-                <input
-                  class="search-txt"
-                  type="text"
-                  name=""
-                  placeholder="Type to search"
-                />
-                <a class="search-btn" href="search.html"
-                  ><i class="fas fa-search"></i></a></li>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="new_games.html" class="active">New Games</a></li>
-              <li><a href="#">Used Games</a></li>
-              <li class="hide"><a href="#">Sell your games</a></li>
-              <li class="hide"><a href="#">Create Acount</a></li>
-              <li class="hide">
-                <a href="#"><i class="fas fa-user-alt"></i>Sign in</a>
-              </li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-      </section>
-    </header>
-    <main>
-      <section class="breadcrumbs">
-      <a href="index.html">Home </a>
-        <a href="new_games.html">> New Games</a>
-        <a href="anno2205.html">> Anno 2205</a>
-      </section>
-      <section class="game">
-        <div class="product_item">
-          <div class="product_img">
-            <a href="anno2205.html"
-              ><img src="/images/anno.png" alt="Image of Anno 2205"
-            /></a>
-          </div>
-          <div class="product_info">
-            <div class="product_text">
-              <h2>Anno 2205</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem soluta iusto sequi nobis earum sint odio
-                voluptatem nihil molestias ipsa.
-              </p>
-            </div>
-            <div class="product_price">
-              <p>$12.5</p>
-              <a href="#" class="cta">Add to bag</a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <a href="search.html"> <img src="/images/arrowup.png" alt="top" />Top</a>
-      <div>Copyright &copy;</div>
-    </footer>
-  </body>
+					<nav class="main-nav">
+						<ul>
+							<li class="search-box hide">
+								<input
+									class="search-txt"
+									type="text"
+									name=""
+									placeholder="Type to search"
+								/>
+								<a class="search-btn" href="search.html"
+									><i class="fas fa-search"></i
+								></a>
+							</li>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="new_games.html" class="active">New Games</a></li>
+							<li><a href="#">Used Games</a></li>
+							<li class="hide"><a href="#">Sell your games</a></li>
+							<li class="hide"><a href="#">Create Acount</a></li>
+							<li class="hide">
+								<a href="#"><i class="fas fa-user-alt"></i>Sign in</a>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+		</header>
+		<main>
+			<section class="breadcrumbs">
+				<a href="index.html">Home </a>
+				<a href="new_games.html">> New Games</a>
+				<a href="anno2205.html">> Anno 2205</a>
+			</section>
+			<section class="game">
+				<div class="product_item">
+					<div class="product_img">
+						<a href="anno2205.html"
+							><img src="/images/anno.png" alt="Image of Anno 2205"
+						/></a>
+					</div>
+					<div class="product_info">
+						<div class="product_text">
+							<h2>Anno 2205</h2>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Exercitationem soluta iusto sequi nobis earum sint odio
+								voluptatem nihil molestias ipsa.
+							</p>
+						</div>
+						<div class="product_price">
+							<p>$12.5</p>
+							<a href="#" class="cta">Add to bag</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<a href="search.html"> <img src="/images/arrowup.png" alt="top" />Top</a>
+			<div>Copyright &copy;</div>
+		</footer>
+	</body>
 </html>
