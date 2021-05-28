@@ -103,17 +103,18 @@
 
 .basketTotalContainer {
 	display: flex;
-	justify-content: flex-end;
 	width: 100%;
 	padding: 10px 0;
 }
 
 .basketTotalTitle {
-	width: 30%;
+	width: 72%;
 }
 
 .basketTotal {
-	width: 10%;
+	display: flex;
+	width: 20%;
+	justify-content: flex-end;
 }
 
 .minus,
