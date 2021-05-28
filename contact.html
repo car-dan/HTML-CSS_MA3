@@ -16,7 +16,7 @@
 			crossorigin="anonymous"
 		/>
 		<title>GameHub</title>
-		<link rel="stylesheet" href="Css/styles.css" />
+		<link rel="stylesheet" href="css/styles.css" />
 		<!-- Hotjar Tracking Code for https://vigorous-cray-19512a.netlify.app -->
 		<script>
 			(function (h, o, t, j, a, r) {
@@ -50,10 +50,10 @@
 							<li class="hide-hamburger">
 								<a href="#"><i class="fas fa-user-alt"></i>Sign in</a>
 							</li>
-							<li>
+							<li class="cart">
 								<a href="checkout.html"
-									><i class="fas fa-shopping-cart"> </i
-								></a>
+									><i class="fas fa-shopping-cart"> </i><span>0</span></a
+								>
 							</li>
 							<li class="hide-hamburger search-box">
 								<input
@@ -110,18 +110,41 @@
 				<a href="index.html">Home </a>
 				<a href="create_account.html">> Contact Us</a>
 			</section>
-			<h1>Contact Us</h1>
-			<form action="#" method="GET">
-				<label for="email">Email</label>
-				<input type="email" name="email" id="email" class="form__input" />
-				<label for="message">Message</label>
-				<textarea name="message" id="message" class="message"></textarea>
-				<input type="submit" value="submit" />
-			</form>
+			<section class="contact">
+				<div class="validation">
+					<img src="/images/checkoutsuccsess.png" alt="succsess" />
+					<p>Message is sent</p>
+					<a href="index.html">Back to homepage --> </a>
+				</div>
+				<form id="contactForm">
+					<h1>Contact Us</h1>
+					<div>
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email" class="form__input" />
+						<div class="form-error" id="emailError">
+							<p>Please enter a valid email</p>
+						</div>
+					</div>
+					<div>
+						<label for="message">Message</label>
+						<textarea
+							name="message"
+							id="message"
+							class="form__input"
+						></textarea>
+						<div class="form-error" id="messageError">
+							<p>Minimum 10 characters</p>
+						</div>
+					</div>
+					<button class="button">Submit</button>
+				</form>
+			</section>
 		</main>
 		<footer>
 			<a href="contact.html"> <img src="/images/arrowup.png" alt="top" />Top</a>
 			<div>Copyright &copy;</div>
 		</footer>
+		<script src="js/cart.js"></script>
+		<script src="js/contact.js"></script>
 	</body>
 </html>

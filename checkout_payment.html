@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="GameHub| Checkout " />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+			integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+			crossorigin="anonymous"
+		/>
+		<title>GameHub| Checkout</title>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+
+	<body>
+		<header>
+			<section class="banner">
+				<div class="banner-image">
+					<a href="index.html" class="logo"
+						><img src="images/logo.png" alt="GameHub logo" class="logo-img"
+					/></a>
+					<nav class="top-nav">
+						<ul>
+							<li class="hide-hamburger"><a href="#">Sell your games</a></li>
+							<li class="hide-hamburger">
+								<a href="create_account.html">Create Acount</a>
+							</li>
+							<li class="hide-hamburger">
+								<a href="#"><i class="fas fa-user-alt"></i>Sign in</a>
+							</li>
+							<li class="cart">
+								<a href="checkout.html"
+									><i class="fas fa-shopping-cart"> </i><span>0</span></a
+								>
+							</li>
+							<li class="hide-hamburger search-box">
+								<input
+									class="search-txt"
+									type="text"
+									name=""
+									placeholder="Type to search"
+								/>
+								<a class="search-btn" href="search.html"
+									><i class="fas fa-search"></i
+								></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+			<section class="hamburger-nav">
+				<div class="hamb-nav">
+					<label for="hamburger-hamburger">
+						<i class="fas fa-bars hamburger"></i>
+					</label>
+					<input type="checkbox" id="hamburger-hamburger" />
+
+					<nav class="main-nav">
+						<ul>
+							<li class="search-box hide">
+								<input
+									class="search-txt"
+									type="text"
+									name=""
+									placeholder="Type to search"
+								/>
+								<a class="search-btn" href="search.html"
+									><i class="fas fa-search"></i
+								></a>
+							</li>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="new_games.html">New Games</a></li>
+							<li><a href="#">Used Games</a></li>
+							<li class="hide"><a href="#">Sell your games</a></li>
+							<li class="hide">
+								<a href="create_account.html">Create Acount</a>
+							</li>
+							<li class="hide">
+								<a href="#"><i class="fas fa-user-alt"></i>Sign in</a>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+		</header>
+		<main>
+			<section class="breadcrumbs">
+				<a href="index.html">Home </a>
+				<a href="checkout.html">> Checkout</a>
+			</section>
+			<section class="payment content">
+				<div class="validation">
+					<img src="/images/checkoutsuccsess.png" alt="succsess" />
+					<p>Your order was succsessful</p>
+					<p>and will be shipped within 1 workday</p>
+					<a href="index.html">Back to homepage --> </a>
+				</div>
+
+				<form id="paymentForm">
+					<h1>Billing Info</h1>
+					<div>
+						<label for="firstName">First Name</label>
+						<input
+							type="text"
+							name="firstName"
+							id="firstName"
+							class="paymentFormInput"
+						/>
+						<div class="errorMessage" id="errorFirstName">
+							<p>Minimum 2 characters</p>
+						</div>
+					</div>
+					<div>
+						<label for="lastName">Last Name</label>
+						<input
+							type="text"
+							name="lastName"
+							id="lastName"
+							class="paymentFormInput"
+						/>
+						<div class="errorMessage" id="errorlastName">
+							<p>Minimum 2 characters</p>
+						</div>
+					</div>
+					<div>
+						<label for="adress">Adress</label>
+						<input
+							type="text"
+							name="adress"
+							id="adress"
+							class="paymentFormInput"
+						/>
+						<div class="errorMessage" id="errorAdress">
+							<p>Minimum 6 characters</p>
+						</div>
+					</div>
+					<div>
+						<label for="city">City</label>
+						<input type="text" name="city" id="city" class="paymentFormInput" />
+						<div class="errorMessage" id="errorCity">
+							<p>Minimum 2 characters</p>
+						</div>
+					</div>
+					<div>
+						<label for="zip">Zip code</label>
+						<input type="number" name="zip" id="zip" class="paymentFormInput" />
+						<div class="errorMessage" id="errorZip">
+							<p>Minimum 4 numbers</p>
+						</div>
+					</div>
+					<div>
+						<label for="country">Country</label>
+						<input
+							type="text"
+							name="country"
+							id="country"
+							class="paymentFormInput"
+						/>
+						<div class="errorMessage" id="errorCountry">
+							<p>Minimum 4 characters</p>
+						</div>
+					</div>
+					<h2>Credit Card Info</h2>
+					<div>
+						<label for="cardNumber">Card Number</label>
+						<input
+							type="number"
+							name="cardNumber"
+							id="cardNumber"
+							class="paymentFormInput"
+						/>
+						<div class="errorMessage" id="errorCardNumber">
+							<p>Minimum 12 numbers</p>
+						</div>
+					</div>
+					<div>
+						<label for="date">date</label>
+						<select
+							type="number"
+							name="date"
+							id="date"
+							class="paymentFormInput"
+						>
+							<option value="date01">01</option>
+							<option value="date02">02</option>
+							<option value="date03">03</option>
+							<option value="date04">04</option>
+							<option value="date05">05</option>
+							<option value="date06">06</option>
+							<option value="date07">07</option>
+							<option value="date08">08</option>
+							<option value="date09">09</option>
+							<option value="date10">10</option>
+							<option value="date11">11</option>
+							<option value="date12">12</option>
+							<option value="date13">13</option>
+							<option value="date14">14</option>
+							<option value="date15">15</option>
+							<option value="date16">16</option>
+							<option value="date17">17</option>
+							<option value="date18">18</option>
+							<option value="date19">19</option>
+							<option value="date20">20</option>
+							<option value="date21">21</option>
+							<option value="date22">22</option>
+							<option value="date23">23</option>
+							<option value="date24">24</option>
+							<option value="date25">25</option>
+							<option value="date26">26</option>
+							<option value="date27">27</option>
+							<option value="date28">28</option>
+							<option value="date29">29</option>
+							<option value="date30">30</option>
+							<option value="date31">31</option>
+						</select>
+					</div>
+					<div>
+						<label for="month">Month</label>
+						<select type="text" name="month" id="mont" class="paymentFormInput">
+							<option value="January">January</option>
+							<option value="february">February</option>
+							<option value="march">March</option>
+							<option value="april">April</option>
+							<option value="may">May</option>
+							<option value="june">June</option>
+							<option value="july">July</option>
+							<option value="august">August</option>
+							<option value="september">September</option>
+							<option value="october">October</option>
+							<option value="november">November</option>
+							<option value="desember">Desember</option>
+						</select>
+					</div>
+					<button class="button">Pay</button>
+				</form>
+			</section>
+		</main>
+		<footer>
+			<a href="checkout.html">
+				<img src="/images/arrowup.png" alt="top" />Top</a
+			>
+			<div>Copyright &copy;</div>
+		</footer>
+		<script src="js/checkout.js"></script>
+		<script src="js/cart.js"></script>
+	</body>
+</html>
