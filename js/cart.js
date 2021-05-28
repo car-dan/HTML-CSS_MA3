@@ -1,9 +1,5 @@
 let carts = document.querySelectorAll(".add-cart");
 
-
-
-
-
 let products = [
     {
         name: 'Anno 2205',
@@ -54,7 +50,6 @@ let products = [
 
 for (let i = 0; i < carts.length; i++){
     carts[i].addEventListener('click', () => {
-        console.log("added to cart")
         cartNumbers(products[i]);
         totalCost(products[i]);
     })
@@ -171,8 +166,6 @@ function displayCart() {
         const button = document.querySelector(".emtyBasketBtn");
 
         button.onclick = function () {
-            
-            console.log("hello")
             localStorage.clear();
             // location.reload();
             productContainer.innerHTML = `<h1>Cart is emty</h1>`;
