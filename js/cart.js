@@ -25,13 +25,13 @@ let products = [
     },
        {
         name: 'Wachdogs Legion',
-        tag: 'wachdogslegion',
+        tag: 'wachdogs2',
         price: 12,
         inCart: 0
     },
        {
         name: 'The Crew 2',
-        tag: 'thecrew2',
+        tag: 'grew',
         price: 12,
         inCart: 0
     },
@@ -43,7 +43,7 @@ let products = [
     },
          {
         name: 'Wachdogs Legion',
-        tag: 'wachdogslegion',
+        tag: 'wachdogs',
         price: 12,
         inCart: 0
     }
@@ -156,12 +156,15 @@ function displayCart() {
         });
 
         productContainer.innerHTML += `
-        <div class="emtyBasket"><button class ="emtyBasketBtn">Clear cart</button></div>
+        
         <div class = "basketTotalContainer">
             <h4 class="basketTotalTitle">Basket Total</h4>
             <h4 class="basketTotal">$${cartCost},00 </h4>
         </div>
-        <div><a href="checkout_payment.html" ><button class="btn">Next</button></a> </div>
+        <div class="emtyBasket">
+            <div><button class ="emtyBasketBtn">Clear cart</button></div>
+            <div><a href="checkout_payment.html" ><button class="next">Next</button></a></div>
+        </div>
 
         `;
 
@@ -171,6 +174,7 @@ function displayCart() {
             
             console.log("hello")
             localStorage.clear();
+            // location.reload();
             productContainer.innerHTML = `<h1>Cart is emty</h1>`;
 
         }

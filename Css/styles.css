@@ -205,9 +205,13 @@ img:hover {
 .number {
   color: #e93801;
 }
+.paymentForm {
+  width: 100%;
+}
 
 .paymentFormInput {
   display: block;
+  width: 100%;
   padding: 12px 20px;
   margin-bottom: 10px;
   border: 2px solid #e93801;
@@ -215,15 +219,19 @@ img:hover {
 }
 
 .form__input,
-.message,
- {
+.message
+{
   display: block;
   width: 90%;
-
   padding: 12px 20px;
   margin-bottom: 10px;
   border: 2px solid #e93801;
   border-radius: 10px;
+}
+
+
+.validation a {
+  color: #000;
 }
 
 
@@ -539,9 +547,12 @@ input[type="submit"],
   /* checkout page */
   .content {
     min-width: 600px;
-    /* margin: 0; */
     display: flex;
     justify-content: space-between;
+  }
+
+  .cartContent {
+    display: block;
   }
 
   .cart {
@@ -603,5 +614,12 @@ input[type="submit"],
   }
   .search {
     padding-top: 0vh;
+  }
+
+}
+
+@media only screen and (min-width: 1390px) {
+   .breadcrumbs {
+    margin-top: 80px;
   }
 }
