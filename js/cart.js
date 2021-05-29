@@ -168,7 +168,7 @@ function displayCart() {
         button.onclick = function () {
             localStorage.clear();
             // location.reload();
-            productContainer.innerHTML = `<h1>Cart is emty</h1>`;
+            productContainer.innerHTML = `<h1>Cart is empty</h1>`;
 
         }
 

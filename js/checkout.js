@@ -121,5 +121,6 @@ function submittForm() {
 function formsuccsess() {
     validation.style.display = "block";
     form.style.display = "none";
+    localStorage.clear();
 }
     
