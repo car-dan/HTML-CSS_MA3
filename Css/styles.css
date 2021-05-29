@@ -161,6 +161,11 @@ a:hover {
   display: none;
 }
 
+.notActive {
+  cursor: default;
+  pointer-events: none;
+}
+
 main {
   padding: 10vh 20% 10vh 10%;
   margin: auto;
@@ -492,6 +497,7 @@ input[type="submit"],
 /* contact */
 .form-error {
   display: none;
+  color: red;
 }
 
 .validation {
