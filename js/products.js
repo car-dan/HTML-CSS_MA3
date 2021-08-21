@@ -1,4 +1,4 @@
-const baseUrl = "http://carolinedanielrud.one/wp-json/wc/store/products";
+const baseUrl = "https://carolinedanielrud.one/wp-json/wc/store/products";
 const productContainer = document.querySelector(".news")
 
 
