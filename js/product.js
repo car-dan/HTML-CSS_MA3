@@ -2,7 +2,7 @@
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 const id = params.get("id");
-const url = "https://carolinedanielrud.one/wp-json/wc/store/products";
+const url = "https://danielrud.no/wp-json/wc/store/products";
 const productContainer = document.querySelector(".game");
 const title = document.querySelector("title");
 
