@@ -177,6 +177,7 @@ main {
   display: grid;
   grid-gap: 10px;
   max-width: 1800px;
+  overflow: hidden;
 }
 
 .news h1,
@@ -187,11 +188,11 @@ main {
 .news img,
 .trending img {
   width: 100%;
+  transition: all 0.4s ease-out;
 }
 
 img:hover {
-  -ms-transform: scale(0.1);
-  transform: scale(1.1);
+ transform: scale(1.2);
 }
 
 /* Search page and new_games*/
